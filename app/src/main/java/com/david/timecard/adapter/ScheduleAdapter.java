@@ -33,7 +33,7 @@ public class ScheduleAdapter extends BaseQuickAdapter<ScheduleBean, BaseViewHold
         helper.setText(R.id.tv_content, item.getTask());
         helper.setText(R.id.tv_time, item.getTime());
         Context context = helper.itemView.getContext();
-        /*switch (item.getType()) {
+        switch (item.getType()) {
             case 1:
                 if (readBookBg == null) {
                     readBookBg = context.getDrawable(R.drawable.read_book_bg);
@@ -66,7 +66,7 @@ public class ScheduleAdapter extends BaseQuickAdapter<ScheduleBean, BaseViewHold
                 break;
             default:
                 break;
-        }*/
+        }
 
         switch (item.getHintType()) {
             case 0:

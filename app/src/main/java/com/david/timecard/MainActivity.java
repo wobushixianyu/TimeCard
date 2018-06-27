@@ -1,5 +1,6 @@
 package com.david.timecard;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
@@ -7,6 +8,7 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.view.MenuItem;
 
+import com.david.timecard.activity.AddScheduleActivity;
 import com.david.timecard.fragment.ScheduleFragment;
 
 import butterknife.BindView;
@@ -59,6 +61,8 @@ public class MainActivity extends BaseActivity implements BottomNavigationView.O
                 setFragment(PageType.schedule);
                 return true;
             case R.id.navigation_add:
+                Intent intent = new Intent(this, AddScheduleActivity.class);
+                startActivity(intent);
                 return true;
             case R.id.navigation_look:
                 return true;

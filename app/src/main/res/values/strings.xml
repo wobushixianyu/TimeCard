@@ -1,8 +1,8 @@
 <resources>
-    <string name="app_name">TimeCard</string>
+    <string name="app_name">时光物语</string>
     <string name="title_schedule">计划表</string>
     <string name="title_add">添加</string>
-    <string name="title_look">看一看</string>
+    <string name="title_record">纪念日</string>
     <string name="text_sport_title">生命不息，运动不止</string>
     <string name="text_read_title">好读书，不求甚解</string>
     <string name="text_have_a_rest_title">休息，休息一下</string>

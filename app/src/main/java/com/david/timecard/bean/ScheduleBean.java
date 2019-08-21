@@ -1,7 +1,7 @@
 package com.david.timecard.bean;
 
 public class ScheduleBean {
-    private int id; //任务id
+    private int id; //id
     private int weekday;    //周几
     private int type;   //类型：阅读、运动、休息......
     private String title;   //标题

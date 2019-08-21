@@ -6,13 +6,12 @@
     android:layout_height="wrap_content"
     android:orientation="vertical">
 
-    <android.support.v7.widget.CardView
+    <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
-        android:elevation="5dp"
         android:foreground="?android:attr/selectableItemBackground"
-        app:cardCornerRadius="5dp"
+        app:cardCornerRadius="@dimen/dp_10"
         app:cardPreventCornerOverlap="false"
         app:cardUseCompatPadding="true">
 
@@ -99,5 +98,5 @@
             </RelativeLayout>
         </LinearLayout>
 
-    </android.support.v7.widget.CardView>
+    </androidx.cardview.widget.CardView>
 </LinearLayout>
